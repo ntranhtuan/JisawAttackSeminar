@@ -1,0 +1,10 @@
+backend/.venv/
+backend/__pycache__/
+__pycache__/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+# Dataset: không đưa lên GitHub (file quá lớn). Chỉ giữ enron_db.pkl / lucene_db.pkl có sẵn từ repo gốc.
+dataset/*.pkl
+!dataset/enron_db.pkl
+!dataset/lucene_db.pkl

@@ -56,7 +56,7 @@ class Attacker:
         self.unrec_td_set = set([i for i in range(len(self.real_M))])
         self.id_known_kws=None
         self.id_queried_kws=None
-    def attack_step_1(self):
+    def attack_step_1(self): #RecoverDQ
         #Jigsaw Step1:Locating and recovering the distinctive queries by Volume and/or Frequency
         D_FV = self.calculate_dVF()
         id_Diff = []

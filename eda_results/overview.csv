@@ -1,0 +1,12 @@
+,enron,lucene,wiki
+#docs (đã đọc),30109,66491,50000
+docs đầy đủ?,True,True,False
+#keywords trong kws_dict,3000,3000,509480
+#keyword phân biệt trong docs,3000,3000,533371
+keyword trong docs ∉ kws_dict,0,0,289885
+TB keyword/doc,33.49,34.85,190.1
+median keyword/doc,22.0,28.0,109.0
+max keyword/doc,1215,458,5062
+#doc rỗng,546,1010,11
+#doc có keyword lặp,0,0,0
+độ dài trend (tuần),260,260,75
